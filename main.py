@@ -62,7 +62,12 @@ poke_habilit = Label(janela, text='Habilidade', relief='flat', anchor=CENTER, fo
 poke_habilit.place(x=180, y=310)
 
 #info
-poke_infoh = Label(janela, text='Overgrow \n Chlorophyll',  relief='flat', anchor=CENTER, font=('Fixedsys 10'), bg=co1, fg=co4)
+poke_infoh = Label(janela, text='Overgrow \n Chlorophyll',  relief='flat', anchor=CENTER, font=('Fixedsys 10'), bg=co1, fg=co0)
 poke_infoh.place(x=180, y=360)
+
+#botoes
+poke_bot = Button(janela, text='#001', relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Fixedsys 12'), bg=co1, fg=co0)
+poke_bot.place(x=505, y=0)
+
 
 janela.mainloop()
